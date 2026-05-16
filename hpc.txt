@@ -1,0 +1,388 @@
+HPC / OpenMP / CUDA / AI-ML Oral Questions with Answers
+1. Parallel BFS and DFS using OpenMP
+Q1. What is BFS?
+Answer: Breadth First Search traverses graph level by level using queue.
+Q2. What is DFS?
+Answer: Depth First Search explores deeply before backtracking.
+Q3. Difference between BFS and DFS?
+Answer: BFS uses queue while DFS uses stack/recursion.
+Q4. What is OpenMP?
+Answer: API used for parallel programming using threads.
+Q5. Why use parallel BFS?
+Answer: To reduce traversal execution time.
+Q6. What is graph traversal?
+Answer: Process of visiting all graph nodes.
+Q7. What is an undirected graph?
+Answer: Edges can be traversed both directions.
+Q8. Which data structure is used in BFS?
+Answer: Queue.
+Q9. Which data structure is used in DFS?
+Answer: Stack or recursion.
+Q10. What is parallelism?
+Answer: Executing multiple tasks simultaneously.
+Q11. What is race condition?
+Answer: Multiple threads accessing shared data simultaneously.
+Q12. What is synchronization?
+Answer: Coordination among threads.
+Q13. What is speedup?
+Answer: Sequential Time / Parallel Time.
+Q14. What is scalability?
+Answer: Ability to improve with more processors.
+Q15. Applications of BFS and DFS?
+Answer: Path finding, networking, AI search, web crawling.
+2. Parallel Bubble Sort and Merge Sort
+Q16. What is sorting?
+Answer: Arranging data in ascending or descending order.
+Q17. What is Bubble Sort?
+Answer: Repeated swapping of adjacent elements.
+Q18. What is Merge Sort?
+Answer: Divide-and-conquer sorting algorithm.
+Q19. Time complexity of Bubble Sort?
+Answer: O(n²).
+Q20. Time complexity of Merge Sort?
+Answer: O(n log n).
+Q21. Which sorting algorithm is faster?
+Answer: Merge Sort.
+Q22. Why parallelize sorting?
+Answer: To reduce execution time.
+Q23. What is merge operation?
+Answer: Combining sorted arrays into one sorted array.
+Q24. What is recursion?
+Answer: Function calling itself.
+Q25. What is execution time measurement?
+Answer: Comparing sequential and parallel performance.
+Q26. Function used for timing in OpenMP?
+Answer: omp_get_wtime().
+Q27. What is scheduling in OpenMP?
+Answer: Assigning work to threads.
+Q28. What is dynamic scheduling?
+Answer: Work assigned during runtime.
+Q29. What is load balancing?
+Answer: Equal work distribution among threads.
+Q30. Applications of sorting?
+Answer: Databases, AI preprocessing, searching.
+3. Parallel Reduction Operations
+Q31. What is reduction?
+Answer: Combining values into a single result.
+Q32. What is parallel reduction?
+Answer: Reduction using multiple threads.
+Q33. Common reduction operations?
+Answer: Min, Max, Sum, Average.
+Q34. OpenMP reduction clause syntax?
+Answer: #pragma omp parallel for reduction(+:sum)
+Q35. Why use reduction?
+Answer: To improve computation speed.
+Q36. How is average calculated?
+Answer: Sum divided by number of elements.
+Q37. What is associative operation?
+Answer: Grouping does not affect result.
+Q38. What is data dependency?
+Answer: One operation depends on another.
+Q39. What happens without reduction clause?
+Answer: Race conditions may occur.
+Q40. Advantages of reduction?
+Answer: Faster execution and better utilization.
+4. CUDA Programming
+Q41. What is CUDA?
+Answer: NVIDIA platform for GPU programming.
+Q42. What is GPU?
+Answer: Processor optimized for parallel computation.
+Q43. Why GPU over CPU?
+Answer: GPU has thousands of smaller cores.
+Q44. What is vector addition?
+Answer: Adding corresponding vector elements.
+Q45. What is CUDA kernel?
+Answer: Function executed on GPU.
+Q46. What keyword defines CUDA kernel?
+Answer: __global__
+Q47. What is a CUDA thread?
+Answer: Smallest execution unit in GPU.
+Q48. What is a block?
+Answer: Group of CUDA threads.
+Q49. What is a grid?
+Answer: Collection of thread blocks.
+Q50. What is matrix multiplication?
+Answer: Combining rows and columns to form new matrix.
+Q51. Why CUDA for matrix multiplication?
+Answer: Matrix operations are highly parallel.
+Q52. What is shared memory?
+Answer: Fast memory shared within block.
+Q53. What is __syncthreads()?
+Answer: CUDA synchronization function.
+Q54. Applications of CUDA?
+Answer: AI, graphics, simulations, scientific computing.
+Q55. What is occupancy?
+Answer: Ratio of active threads to maximum supported.
+5. HPC Applications for AI/ML
+Q56. What is HPC?
+Answer: High Performance Computing.
+Q57. What is AI?
+Answer: Artificial Intelligence.
+Q58. What is Machine Learning?
+Answer: Learning patterns from data.
+Q59. Why HPC in AI/ML?
+Answer: AI models require huge computations.
+Q60. Examples of AI applications?
+Answer: Chatbots, image recognition, recommendation systems.
+Q61. What is deep learning?
+Answer: Neural networks with many layers.
+Q62. What is neural network?
+Answer: Brain-inspired computational model.
+Q63. What is training?
+Answer: Teaching model using data.
+Q64. What is inference?
+Answer: Using trained model for prediction.
+Q65. Why GPUs in deep learning?
+Answer: Efficient matrix operations.
+Q66. What is big data?
+Answer: Large and complex datasets.
+Q67. What is distributed computing?
+Answer: Using multiple systems together.
+Q68. What is TensorFlow?
+Answer: Open-source ML framework by Google.
+Q69. What is PyTorch?
+Answer: Open-source deep learning framework.
+Q70. Applications of HPC?
+Answer: Weather forecasting, AI, bioinformatics.
+Advanced Viva Questions
+Q71. What is Amdahl’s Law?
+Answer: Maximum speedup achievable with parallelism.
+Q72. What is throughput?
+Answer: Amount of work completed per unit time.
+Q73. What is latency?
+Answer: Delay before execution starts.
+Q74. Difference between CPU and GPU?
+Answer: CPU is for sequential tasks, GPU for parallel tasks.
+Q75. What is heterogeneous computing?
+Answer: Using CPU and GPU together.
+Q76. What is MPI?
+Answer: Message Passing Interface.
+Q77. Difference between OpenMP and MPI?
+Answer: OpenMP uses shared memory; MPI uses distributed memory.
+Q78. What is supercomputing?
+Answer: Use of extremely powerful systems.
+Q79. What is thread synchronization?
+Answer: Coordination among threads.
+Q80. Challenges in parallel computing?
+Answer: Deadlocks, race conditions, synchronization overhead.
+
+
+// DL 
+
+
+Deep Learning Practical Oral Questions and Answers
+1. Linear Regression using Deep Neural Network (Boston Housing Dataset)
+Q1. What is Linear Regression?
+Answer: A supervised learning algorithm used for predicting continuous values.
+Q2. What is Deep Neural Network?
+Answer: A neural network having multiple hidden layers.
+Q3. What is Boston Housing Dataset?
+Answer: A dataset used for predicting house prices based on different features.
+Q4. What is supervised learning?
+Answer: Learning using labeled input and output data.
+Q5. What is regression?
+Answer: Predicting continuous numerical values.
+Q6. What is a feature?
+Answer: An input variable used for prediction.
+Q7. What is target variable in Boston dataset?
+Answer: House price.
+Q8. What is an epoch?
+Answer: One complete iteration over the training dataset.
+Q9. What is batch size?
+Answer: Number of samples processed before updating weights.
+Q10. What is activation function?
+Answer: Function applied to neuron output.
+Q11. What activation is used in regression output layer?
+Answer: Linear activation.
+Q12. What is loss function for regression?
+Answer: Mean Squared Error (MSE).
+Q13. What is optimizer?
+Answer: Algorithm used to update weights.
+Q14. What is Adam optimizer?
+Answer: Adaptive optimization algorithm used in deep learning.
+Q15. What is overfitting?
+Answer: Model performs well on training data but poorly on testing data.
+Q16. What is underfitting?
+Answer: Model fails to learn training data properly.
+Q17. What is normalization?
+Answer: Scaling data into smaller range.
+Q18. Why preprocessing is important?
+Answer: To improve model performance.
+Q19. What is training data?
+Answer: Data used to train the model.
+Q20. What is testing data?
+Answer: Data used to evaluate model performance.
+2. Classification using Deep Neural Network
+Q21. What is classification?
+Answer: Predicting categorical outputs.
+Q22. What is binary classification?
+Answer: Classification into two classes.
+Q23. What is multiclass classification?
+Answer: Classification into more than two classes.
+Q24. What is OCR?
+Answer: Optical Character Recognition.
+Q25. What is OCR letter recognition dataset?
+Answer: Dataset used for recognizing alphabets.
+Q26. What is IMDB dataset?
+Answer: Movie review dataset used for sentiment analysis.
+Q27. What is sentiment analysis?
+Answer: Finding positive or negative opinion from text.
+Q28. What is label encoding?
+Answer: Converting labels into numeric values.
+Q29. What is one-hot encoding?
+Answer: Representing categories as binary vectors.
+Q30. Which activation function is used in hidden layers?
+Answer: ReLU.
+Q31. Which activation function is used in binary classification output?
+Answer: Sigmoid.
+Q32. Which activation function is used in multiclass classification output?
+Answer: Softmax.
+Q33. What is sigmoid function?
+Answer: Activation producing output between 0 and 1.
+Q34. What is softmax function?
+Answer: Converts outputs into probabilities.
+Q35. What is cross entropy loss?
+Answer: Loss function used in classification.
+Q36. What is categorical cross entropy?
+Answer: Loss function for multiclass classification.
+Q37. What is binary cross entropy?
+Answer: Loss function for binary classification.
+Q38. What is accuracy?
+Answer: Percentage of correct predictions.
+Q39. What is confusion matrix?
+Answer: Table showing prediction results.
+Q40. What are true positives?
+Answer: Correctly predicted positive samples.
+Q41. What are false positives?
+Answer: Incorrectly predicted positive samples.
+Q42. What are false negatives?
+Answer: Incorrectly predicted negative samples.
+Q43. What is precision?
+Answer: Ratio of correct positive predictions.
+Q44. What is recall?
+Answer: Ability to find all positive samples.
+Q45. What is F1-score?
+Answer: Harmonic mean of precision and recall.
+3. Convolutional Neural Network (CNN)
+Q46. What is CNN?
+Answer: Deep learning model mainly used for image processing.
+Q47. What is convolution?
+Answer: Operation used to extract image features.
+Q48. What is kernel/filter?
+Answer: Small matrix used for feature extraction.
+Q49. What is feature map?
+Answer: Output produced after convolution.
+Q50. What is pooling?
+Answer: Reducing image dimensions.
+Q51. What is max pooling?
+Answer: Selecting maximum value from region.
+Q52. What is flattening?
+Answer: Converting matrix into vector.
+Q53. What is dropout?
+Answer: Technique used to reduce overfitting.
+Q54. What is image classification?
+Answer: Categorizing images into classes.
+Q55. What is MNIST Fashion Dataset?
+Answer: Dataset containing fashion clothing images.
+Q56. What is plant disease detection?
+Answer: Identifying plant diseases using images.
+Q57. Why CNN is suitable for images?
+Answer: Automatically extracts spatial features.
+Q58. What is image preprocessing?
+Answer: Resizing and normalizing images.
+Q59. What is data augmentation?
+Answer: Generating modified training images.
+Q60. What are epochs in CNN?
+Answer: Iterations during training.
+Q61. What is stride?
+Answer: Step size during convolution.
+Q62. What is padding?
+Answer: Adding extra pixels around image borders.
+Q63. What is grayscale image?
+Answer: Image having shades of gray only.
+Q64. What is RGB image?
+Answer: Image containing red, green, and blue channels.
+Q65. Applications of CNN?
+Answer: Medical imaging, face recognition, autonomous vehicles.
+4. Recurrent Neural Network (RNN) – Google Stock Price Prediction
+Q66. What is RNN?
+Answer: Neural network designed for sequential data.
+Q67. What is time series data?
+Answer: Data collected over time intervals.
+Q68. Why RNN is used for stock prediction?
+Answer: RNN remembers previous information.
+Q69. What is sequence data?
+Answer: Ordered data points.
+Q70. What is hidden state in RNN?
+Answer: Memory of previous inputs.
+Q71. What is Google stock dataset?
+Answer: Historical stock prices of Google.
+Q72. What is stock price prediction?
+Answer: Forecasting future stock prices.
+Q73. What is LSTM?
+Answer: Long Short-Term Memory network.
+Q74. Why LSTM is better than basic RNN?
+Answer: It solves vanishing gradient problem.
+Q75. What is vanishing gradient problem?
+Answer: Gradients become too small during training.
+Q76. What is sequential dependency?
+Answer: Current output depends on previous data.
+Q77. What is forecasting?
+Answer: Predicting future values.
+Q78. What is timestep?
+Answer: Single unit in sequence.
+Q79. What is sliding window?
+Answer: Using previous values to predict next value.
+Q80. What optimizer is commonly used in RNN?
+Answer: Adam optimizer.
+Q81. What loss function is used in stock prediction?
+Answer: Mean Squared Error.
+Q82. What is normalization in stock prediction?
+Answer: Scaling stock values.
+Q83. What is training sequence?
+Answer: Input sequence used for learning.
+Q84. Applications of RNN?
+Answer: Speech recognition, NLP, stock prediction.
+Q85. Difference between CNN and RNN?
+Answer: CNN processes images while RNN processes sequences.
+Advanced Viva Questions
+Q86. What is deep learning?
+Answer: Subset of machine learning using neural networks.
+Q87. What is machine learning?
+Answer: Systems learning patterns from data.
+Q88. Difference between AI, ML and DL?
+Answer: DL is subset of ML and ML is subset of AI.
+Q89. What is TensorFlow?
+Answer: Open-source deep learning framework by Google.
+Q90. What is Keras?
+Answer: High-level API for deep learning.
+Q91. What is PyTorch?
+Answer: Deep learning framework developed by Meta.
+Q92. What is GPU?
+Answer: Processor used for parallel computations.
+Q93. Why GPU is used in deep learning?
+Answer: Faster matrix calculations.
+Q94. What is backpropagation?
+Answer: Technique for updating neural network weights.
+Q95. What are weights in neural networks?
+Answer: Parameters adjusted during training.
+Q96. What are biases?
+Answer: Additional parameters improving learning.
+Q97. What is gradient descent?
+Answer: Optimization algorithm minimizing loss.
+Q98. What is learning rate?
+Answer: Controls weight update size.
+Q99. What is hyperparameter?
+Answer: Parameter set before training.
+Q100. What is model evaluation?
+Answer: Checking model performance.
+Q101. What is train-test split?
+Answer: Dividing dataset for training and testing.
+Q102. What is validation data?
+Answer: Data used during training evaluation.
+Q103. What is transfer learning?
+Answer: Using pre-trained models.
+Q104. What is early stopping?
+Answer: Stopping training to avoid overfitting.
+Q105. Applications of Deep Learning?
+Answer: Healthcare, NLP, finance, robotics, autonomous vehicles.
