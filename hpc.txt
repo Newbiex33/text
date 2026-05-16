@@ -386,3 +386,73 @@ Q104. What is early stopping?
 Answer: Stopping training to avoid overfitting.
 Q105. Applications of Deep Learning?
 Answer: Healthcare, NLP, finance, robotics, autonomous vehicles.
+
+
+
+applications of ml , dl , ai -
+
+face recognition , speech recognition , language translation , medical diagosis , self driving cars , recommemdation syatems.
+
+
+other :
+
+BFS (Breadth First Search)
+
+Used in graphs and trees.
+
+Shortest Path in Unweighted Graph
+Finding minimum number of edges between nodes.
+Web Crawlers
+Search engines explore linked web pages level by level.
+Social Networking
+Finding mutual friends or connection levels.
+Network Broadcasting
+Sending packets/data to all nodes in a network.
+DFS (Depth First Search)
+
+Explores deeply before backtracking.
+
+Cycle Detection in Graphs
+Detect loops in directed/undirected graphs.
+Topological Sorting
+Used in task scheduling and dependency management.
+Maze Solving
+Finding paths through puzzles or games.
+Connected Components
+Identifying groups of connected nodes in a graph.
+CUDA (Compute Unified Device Architecture)
+
+Technology by NVIDIA for GPU parallel computing.
+
+AI & Deep Learning
+Training neural networks faster using GPUs.
+Image & Video Processing
+Rendering, filtering, and video encoding.
+Scientific Simulations
+Weather prediction, physics simulations, molecular modeling.
+Cryptocurrency Mining
+Parallel computation for hash calculations.
+Bubble Sort
+
+Simple comparison-based sorting algorithm.
+
+Educational Purpose
+Teaching sorting concepts to beginners.
+Small Datasets
+Works acceptably for tiny collections.
+Detecting Sorted Data
+Stops early if data is already sorted.
+Embedded Systems
+Used where memory usage must stay minimal.
+Merge Sort
+
+Efficient divide-and-conquer sorting algorithm.
+
+Sorting Large Datasets
+Performs efficiently on huge data.
+External Sorting
+Used when data is stored on disk.
+Linked List Sorting
+Works efficiently with linked lists.
+Stable Sorting Applications
+Maintains relative order of equal elements.
